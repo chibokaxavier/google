@@ -7,7 +7,7 @@ const HeaderOption = ({ Icon, title, selected }) => {
         selected && "text-blue-500 border-blue-500"
       }`}
     >
-      <Icon className="h-4" />
+      <Icon className="md:h-4 h-6 " />
       <p className="hidden sm:inline-flex"> {title}</p>
     </div>
   );

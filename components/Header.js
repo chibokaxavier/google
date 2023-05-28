@@ -26,7 +26,7 @@ const Header = () => {
           width={120}
           className="cursor-pointer md:h-[40px] md:w-[120px] h-[20px] w-[60px] "
         />
-        <form className="flex  flex-grow border px-6 md:py-3 py-1 mx-2 md:ml-10 md:mr-5 border-gray-200 rounded-full shadow-lg  max-w-3xl items-center">
+        <form className="flex  flex-grow border px-6 md:py-3 py-2 mx-2 md:ml-10 md:mr-5 border-gray-200 rounded-full shadow-lg  max-w-3xl items-center">
           <input
             ref={searchInputRef}
             className="flex-grow w-full focus:outline-none"
