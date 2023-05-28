@@ -11,7 +11,7 @@ const SearchResults = ({ results }) => {
       {results.items?.map((result) => (
         <div key={result.link} className="max-w-xl mb-8">
           <div className="flex flex-col group">
-            <a href={result.link} className="text-sm">
+            <a href={result.link} className=" truncate text-sm">
               {" "}
               {result.formattedUrl}
             </a>
